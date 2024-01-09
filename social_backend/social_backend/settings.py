@@ -33,7 +33,7 @@ DEBUG = 'RENDER' not in os.environ
 
 ALLOWED_HOSTS = []
 
-WEBSITE_URL = 'http://127.0.0.1:8000'
+WEBSITE_URL = 'https://social-media-backend-0vp0.onrender.com'
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 
