@@ -63,11 +63,11 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://scinet.netlify.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:5173",
+    "https://scinet.netlify.app",
 ]
 
 INSTALLED_APPS = [
