@@ -126,7 +126,7 @@ DATABASES = {
 
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgres://vmpwswny:rQmSCZCa_N2QQBIBeYT43CuKP60xp5cy@drona.db.elephantsql.com/vmpwswny',
+        default='postgres://sci_net:gK9EreFWMd6w7lYsyN1Cdu95fKbz2K0i@dpg-cmej5cqcn0vc73bovgi0-a.oregon-postgres.render.com/sci_net',
         conn_max_age=600
     )
     
