@@ -124,16 +124,16 @@ WSGI_APPLICATION = 'social_backend.wsgi.application'
 
 DATABASES = {
 
-    'default': dj_database_url.config(
+    #'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='postgres://sci_net:gK9EreFWMd6w7lYsyN1Cdu95fKbz2K0i@dpg-cmej5cqcn0vc73bovgi0-a.oregon-postgres.render.com/sci_net',
-        conn_max_age=600
-    )
+        #default='postgres://sci_net:gK9EreFWMd6w7lYsyN1Cdu95fKbz2K0i@dpg-cmej5cqcn0vc73bovgi0-a.oregon-postgres.render.com/sci_net',
+        #conn_max_age=600
+    #)
     
-    #'default': {
-       # 'ENGINE': 'django.db.backends.sqlite3',
-       # 'NAME': BASE_DIR / 'db.sqlite3',
-    #}
+    'default': {
+       'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
