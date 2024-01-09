@@ -13,3 +13,5 @@ gunicorn
 dj-database-url 
 psycopg2-binary
 whitenoise[brotli]
+boto3==1.26.59
+django-storages==1.13.2
